@@ -1,0 +1,25 @@
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:     Grip strength (kg)   R-squared:                       0.018
+Model:                            OLS   Adj. R-squared:                 -0.105
+Method:                 Least Squares   F-statistic:                    0.1457
+Date:                Fri, 22 Sep 2023   Prob (F-statistic):              0.713
+Time:                        02:59:55   Log-Likelihood:                -20.755
+No. Observations:                  10   AIC:                             45.51
+Df Residuals:                       8   BIC:                             46.12
+Df Model:                           1                                         
+Covariance Type:            nonrobust                                         
+==============================================================================
+                 coef    std err          t      P>|t|      [0.025      0.975]
+------------------------------------------------------------------------------
+const         11.1001      1.940      5.722      0.000       6.627      15.573
+Age            0.0213      0.056      0.382      0.713      -0.108       0.150
+==============================================================================
+Omnibus:                        2.843   Durbin-Watson:                   0.941
+Prob(Omnibus):                  0.241   Jarque-Bera (JB):                0.998
+Skew:                          -0.206   Prob(JB):                        0.607
+Kurtosis:                       1.508   Cond. No.                         98.8
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
